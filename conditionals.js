@@ -76,3 +76,5 @@ console.log(isLooselyEqual);
 // console.log(isStrictlyEqual);
 // console.log('Is true not equal to false?');
 // console.log(isTrueNotFalse);
+
+//bet
