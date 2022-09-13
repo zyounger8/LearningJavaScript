@@ -1,4 +1,4 @@
-// Static Methods and Properties
+// ===== Static Methods and Properties
 // class Governor {
 //     constructor(name){
 //         this.name = name
@@ -6,7 +6,7 @@
 //     }
 // }
 
-//Inheritance
+// ===== Inheritance
 class Person {
   constructor(name1, age) {
     this._name = name1;
@@ -34,3 +34,5 @@ class Person {
 class PostalWorker extends Person {
   constructor(name1, age) {}
 }
+
+// ===== Bank Accounts
