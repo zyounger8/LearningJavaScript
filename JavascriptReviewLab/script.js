@@ -230,3 +230,47 @@ console.log(myArray);
 /* 5. Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse()method return anything? */
 myArray.reverse();
 console.log(myArray);
+
+// ===== F. Biggie Smalls
+
+// ===== G. Monkey in the Middle
+
+// ===== H. What's in Your Closet?
+
+// ===== IV. Functions =====
+
+// A. B C D E F G
+
+// ===== H. printLongestWord
+/*
+Write a function printLongestWordthat accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return the word that appears first in the array.
+*/
+
+function printLongestWord(array) {
+  let max_str = array[0].length;
+  let ans = array[0];
+  for (let i = 1; i < array.length; i++) {
+    let maxi = array[i].length;
+    if (maxi == array[0]) {
+      ans = array[0];
+    } else if (maxi > max_str) {
+      ans = array[i];
+      max_str = maxi;
+    }
+  }
+  return ans;
+}
+
+console.log(
+  printLongestWord([
+    "BoJack",
+    "Princess",
+    "Diane",
+    "a",
+    "Max",
+    "Peanutbuttaa",
+    "Peanutbutter",
+    "big",
+    "Todd",
+  ])
+);
