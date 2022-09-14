@@ -124,3 +124,22 @@ console.log(halfMovies);
 console.log(favMovies);
 // 11
 console.log(favMovies.indexOf("Fast and Furious"));
+
+///////////////////
+// Where is Waldo
+//////////////////
+
+const whereIsWaldo = [
+  ["Timmy", "Frank"],
+  "Eggbert",
+  ["Lucinda", "Jacc", "Neff", "Snoop"],
+  ["Petunia", ["Baked Goods", "Waldo"]],
+];
+
+// 1
+console.log(whereIsWaldo.splice(1, 1));
+console.log(whereIsWaldo);
+// 2
+whereIsWaldo[1][2] = "No One";
+// 3
+console.log(whereIsWaldo[2][1][1]);
