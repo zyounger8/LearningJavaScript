@@ -143,3 +143,22 @@ console.log(whereIsWaldo);
 whereIsWaldo[1][2] = "No One";
 // 3
 console.log(whereIsWaldo[2][1][1]);
+
+/////////////////
+// Excited Kitten
+/////////////////
+
+const catResponse = [
+  "...human...why you taking pictures of me?...",
+  "...the catnip made me do it...",
+  "...why does the red dot always get away...",
+];
+let lonelyKitten = "Love me, pet me! HSSSSSS!";
+
+for (let i = 0; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(catResponse[Math.floor(Math.random() * 3)]);
+  } else {
+    console.log(lonelyKitten);
+  }
+}
