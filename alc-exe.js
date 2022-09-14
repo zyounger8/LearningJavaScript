@@ -65,3 +65,62 @@ const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"];
 for (const i of ninjaTurtles) {
   console.log(i.toUpperCase());
 }
+
+//////////////////////
+// Methods, Revisited
+/////////////////////
+
+const favMovies = [
+  "Jaws",
+  "The Fellowship of the Ring",
+  "Howl's Moving Castle",
+  "Django Unchained",
+  "Cloud Atlas",
+  "The Usual Suspects",
+  "Toy Story",
+  "Conan the Barbarian",
+  "Titanic",
+  "Harry Potter",
+  "Fried Green Tomatoes",
+  "Volver",
+  "Oculus",
+  "Seven",
+  "Black Panther",
+  "Harry Potter",
+  "Imitation of Life",
+  "Snatch",
+  "Fast and Furious",
+];
+
+// console.log(favMovies.indexOf("Titanic"));
+
+// // 1
+// console.log(favMovies.sort());
+// // 2
+// console.log(favMovies.pop());
+// // 3
+// console.log(favMovies.push("Guardians of the Galaxy"));
+// // 4
+// console.log(favMovies.reverse());
+// // 5
+// console.log(favMovies.shift());
+// 6
+console.log(favMovies.unshift());
+// 7
+console.log(favMovies.length);
+console.log(favMovies.indexOf("Django Unchained"));
+console.log(favMovies.splice(3, 1, "Avatar"));
+console.log(favMovies);
+
+// 8
+console.log(favMovies.length / 2);
+console.log(favMovies.slice(9, 19));
+console.log(favMovies);
+
+// 9
+const halfMovies = favMovies.slice(9, 19);
+console.log(halfMovies);
+// 10
+console.log(favMovies);
+// 11
+console.log(favMovies.indexOf("Fast and Furious"));
